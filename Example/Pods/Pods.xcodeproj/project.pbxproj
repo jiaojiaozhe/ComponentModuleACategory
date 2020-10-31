@@ -553,7 +553,40 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		20492088DCCA4D8F819A1CEBD9FB87E1 /* Release */ = {
+		0366D459C4AB246659FC83A0C74392CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D1EBC00255851738F68335BE49568E3 /* Pods-ComponentModuleACategory_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ComponentModuleACategory_Example/Pods-ComponentModuleACategory_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ComponentModuleACategory_Example/Pods-ComponentModuleACategory_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		160C945339A7BC500C3453819CFEF68B /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A6DB4782B9A0D06666D54AAE8E784CBE /* ComponentModuleACategory.release.xcconfig */;
 			buildSettings = {
@@ -569,7 +602,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/ComponentModuleACategory/ComponentModuleACategory-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/ComponentModuleACategory/ComponentModuleACategory-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/ComponentModuleACategory/ComponentModuleACategory.modulemap";
 				PRODUCT_MODULE_NAME = ComponentModuleACategory;
@@ -585,7 +618,38 @@
 			};
 			name = Release;
 		};
-		2517115B7E6B0885EE2B23C7775EE928 /* Release */ = {
+		6E5A033564F3B3D431B2A616391D809B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2F86E7968FA155145C72A795F9A56A2 /* ComponentMiddleware.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ComponentMiddleware/ComponentMiddleware-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ComponentMiddleware/ComponentMiddleware-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ComponentMiddleware/ComponentMiddleware.modulemap";
+				PRODUCT_MODULE_NAME = ComponentMiddleware;
+				PRODUCT_NAME = ComponentMiddleware;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7246E7FFBDA1991F78FE69B2263C4A20 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F8371DC23AB018833FD14C556DAB4AC4 /* Pods-ComponentModuleACategory_Tests.release.xcconfig */;
 			buildSettings = {
@@ -601,7 +665,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-ComponentModuleACategory_Tests/Pods-ComponentModuleACategory_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ComponentModuleACategory_Tests/Pods-ComponentModuleACategory_Tests.modulemap";
@@ -619,7 +683,7 @@
 			};
 			name = Release;
 		};
-		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -667,7 +731,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -679,71 +743,7 @@
 			};
 			name = Release;
 		};
-		6E5A033564F3B3D431B2A616391D809B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A2F86E7968FA155145C72A795F9A56A2 /* ComponentMiddleware.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ComponentMiddleware/ComponentMiddleware-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ComponentMiddleware/ComponentMiddleware-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ComponentMiddleware/ComponentMiddleware.modulemap";
-				PRODUCT_MODULE_NAME = ComponentMiddleware;
-				PRODUCT_NAME = ComponentMiddleware;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		7B9D03966E48EE2071D6BA65AF39381B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4A1740041EBE763E6B4D37A55CA07296 /* Pods-ComponentModuleACategory_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ComponentModuleACategory_Tests/Pods-ComponentModuleACategory_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ComponentModuleACategory_Tests/Pods-ComponentModuleACategory_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -794,7 +794,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -839,40 +839,7 @@
 			};
 			name = Release;
 		};
-		C66EC56E7FB6B4862A8A960759FC8217 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0D1EBC00255851738F68335BE49568E3 /* Pods-ComponentModuleACategory_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ComponentModuleACategory_Example/Pods-ComponentModuleACategory_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ComponentModuleACategory_Example/Pods-ComponentModuleACategory_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		E7FEEB5F674033C54818998117529F5C /* Debug */ = {
+		981C47221A1BED5751763E0A6DFBC236 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 092DDB0F907250CA4A178BD1CBAF5697 /* ComponentModuleACategory.debug.xcconfig */;
 			buildSettings = {
@@ -888,7 +855,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/ComponentModuleACategory/ComponentModuleACategory-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/ComponentModuleACategory/ComponentModuleACategory-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/ComponentModuleACategory/ComponentModuleACategory.modulemap";
 				PRODUCT_MODULE_NAME = ComponentModuleACategory;
@@ -903,7 +870,7 @@
 			};
 			name = Debug;
 		};
-		FADE633A98EC9503C96AB23E3E2BD0B7 /* Release */ = {
+		9FDBCA972A662D52E39E9305A443A54B /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5CBAEA5300FDD2D1504443210634F0EA /* Pods-ComponentModuleACategory_Example.release.xcconfig */;
 			buildSettings = {
@@ -919,7 +886,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-ComponentModuleACategory_Example/Pods-ComponentModuleACategory_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ComponentModuleACategory_Example/Pods-ComponentModuleACategory_Example.modulemap";
@@ -937,14 +904,47 @@
 			};
 			name = Release;
 		};
+		DBE958993C2FB55C9884546B395F1B06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A1740041EBE763E6B4D37A55CA07296 /* Pods-ComponentModuleACategory_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ComponentModuleACategory_Tests/Pods-ComponentModuleACategory_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ComponentModuleACategory_Tests/Pods-ComponentModuleACategory_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
-				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -961,8 +961,8 @@
 		DAA5674284A16756ACF8834352BFFE70 /* Build configuration list for PBXNativeTarget "Pods-ComponentModuleACategory_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7B9D03966E48EE2071D6BA65AF39381B /* Debug */,
-				2517115B7E6B0885EE2B23C7775EE928 /* Release */,
+				DBE958993C2FB55C9884546B395F1B06 /* Debug */,
+				7246E7FFBDA1991F78FE69B2263C4A20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -970,8 +970,8 @@
 		F5722DAEAB97951BFF6657E7166BBD63 /* Build configuration list for PBXNativeTarget "ComponentModuleACategory" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E7FEEB5F674033C54818998117529F5C /* Debug */,
-				20492088DCCA4D8F819A1CEBD9FB87E1 /* Release */,
+				981C47221A1BED5751763E0A6DFBC236 /* Debug */,
+				160C945339A7BC500C3453819CFEF68B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -979,8 +979,8 @@
 		FD6E20BDF2ADD1A998088823AF16A5D9 /* Build configuration list for PBXNativeTarget "Pods-ComponentModuleACategory_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C66EC56E7FB6B4862A8A960759FC8217 /* Debug */,
-				FADE633A98EC9503C96AB23E3E2BD0B7 /* Release */,
+				0366D459C4AB246659FC83A0C74392CC /* Debug */,
+				9FDBCA972A662D52E39E9305A443A54B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
